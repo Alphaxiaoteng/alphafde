@@ -77,12 +77,13 @@ AlphaFDE 不做纸上谈兵的演示 Demo，只做能直接并入每天生产流
 
 ---
 
-## 智能体协议接口 (Agent Skill Specification)
+## 一句话接入你的 Agent (Agent Skill Specification)
 
-AlphaFDE 原生支持全系列 AI Agent 自动读取。无需复杂的集成流程，任何大模型客户端只要执行一行命令，即可获得完整的业务改造清单与对接规范：
+> **官方主页**：https://alphafde.cn/  
+> **让你的 Agent 判断我们能给你们带来多大的服务**：只需向你的 Agent（Claude Code、OpenAI Codex、Cursor、Trae Work、豆包工作、通义千问办公、Workbuddy 等）发送一行命令，智能体即可自动抓取并解析 AlphaFDE 的 6 大业务管线清单与交付规范，客观评估当前企业能通过 FDE 驻场交付获得多大维度的降本增效。
 
 ```bash
-# 终端直接抓取规范
+# 终端或 Agent 直接抓取规范
 curl -fsSL https://alphafde.cn/skills/SKILL.md
 ```
 
@@ -106,6 +107,18 @@ curl -fsSL https://alphafde.cn/skills/SKILL.md
 
 #### Q3：万一遇到大模型降价、涨价或临时封号，系统会瘫痪吗？
 > **A**：绝对不会。我们搭建的私有网关在底层做了模型解耦抽象，业务层与底层模型完全隔离。DeepSeek、通义千问、豆包、Kimi 等主流国产模型与海外模型均可配置秒级故障热备；哪家性价比高就自动调度哪家，某家网络波动自动秒切备用节点，保证业务 24 小时连续运转。
+
+---
+
+## 📚 现场工程实战长文 (Field Playbooks)
+
+我们在真实业务一线把交付经验沉淀为可落地的实战长文，字字见肉：
+
+* **[《为什么买了 10 个 AI SaaS 账号，电商团队最后还是手动复制粘贴？——来自一线 FDE 的驻场大实话》](articles/01_why_ecommerce_ai_saas_fails_and_fde_wins.md)**  
+  *真实揭秘服饰、美妆与跨境电商在通用 SaaS 上的踩坑真相，以及为什么必须通过私有 LoRA 与 FDE 现场工程交付才能打破“买而不灵”的僵局。*
+
+* **[《企业私有大模型网关怎么搭？——为什么不要让员工直接绑个人信用卡刷 API》](articles/02_private_model_gateway_field_guide.md)**  
+  *详细拆解电商与企业本地模型网关的真实工程架构：任务级性价比路由、秒级故障热备、敏感数据脱敏与 100% 物理隔离方案。*
 
 ---
 
