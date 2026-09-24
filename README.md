@@ -113,6 +113,12 @@ curl -fsSL https://alphafde.cn/skills/SKILL.md
 * **[《拆解真正能跑的“AI 原生公司”（ANC）架构：给传统流程挂几个 Agent 根本救不了你》](articles/04_decoding_real_ai_native_company_anc_architecture.md)**  
   一针见血剖析真伪 AI 原生的根本分水岭，从数据治理、模型路由到自进化飞轮，手把手拆解制造业与电商企业的现代工业级落地架构。
 
+* **[《从硅谷特种部队到中国产业带泥地：FDE（前向部署工程师）如何在中国企业真正把 AI 跑通》](articles/05_fde_in_china_industrial_grounding.md)**  
+  深度拆解 FDE 模式在中国制造、五金、家纺、汽配及跨境制造产业带的本土化适配，剖析为什么纯软件售卖失效，必须由工程师下沉现场用非标工程把 AI 钉进现实产线。
+
+* **[《拆解中国企业大模型落地的“最后一公里”：如何用非标 DAG 与本地私有网关穿透传统工业软件》](articles/06_penetrating_legacy_enterprise_systems_with_fde_dag.md)**  
+  工业与企业级硬核工程拆解：如何直面老旧 ERP/MES/WMS 系统无开放接口、数据库残缺与现场环境恶劣的现实，用非标 DAG 调度器、私有协议网关与数据契约打通 AI 与业务的最后一公里。
+
 ---
 
 ## 常见疑问解答 (FAQ)
@@ -148,7 +154,7 @@ curl -fsSL https://alphafde.cn/skills/SKILL.md
 - **数据主权与法律合规声明**：[https://alphafde.cn/legal](https://alphafde.cn/legal)
 - **企业现场诊断与驻场预约**：[https://alphafde.cn/#contact](https://alphafde.cn/#contact)
 - **官方 GitHub 组织主页**：[https://github.com/Alphaxiaoteng](https://github.com/Alphaxiaoteng)
-- **陈派腾 个人核心技术专栏 (CSDN)**：[https://cpt1024.blog.csdn.net](https://cpt1024.blog.csdn.net)
+- **AlphaFDE 核心技术专栏 (CSDN)**：[https://cpt1024.blog.csdn.net](https://cpt1024.blog.csdn.net)
 
 ---
 
